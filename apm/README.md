@@ -23,13 +23,6 @@ This tutorial demonstrates how to:
 + How to Use Application Performance Monitoring
 + Manually deploy the APM Agent into Apache Tomcat
 
-### Prerequisites ###
-
-+ Oracle Public Cloud Services account including:
-	+ Application Performance Monitoring Cloud Service
-	+ Application Container Cloud Service
-	+ [springboot-sample Tutorial](../springboot-sample/)
-
 ### Steps ###
 
 #### Complete the springboot-sample tutorial ####
