@@ -2,20 +2,6 @@
 
 This repository contains labs material for **PaaS & Middleware Partner Community Forum Bootcamps**.
 
-### BEFORE YOU START
-
-Please collect following data - we will use two different identity domains during the labs so please collect following:
-
-+ DevCS Identity domain (referred as **DEVCS_DOMAIN**) 
-+ DevCS User(s) (**DEVCS_USER**) - *cloud.adminXX*
-+ DevCS Password (**DEVCS_PWD**) - belongs to *cloud.adminXX*
-+ ACCS Identity domain (**ACCS_DOMAIN**)
-+ ACCS User(s) (**ACCS_USER**) - *cloud.admin*
-+ ACCS Password (**ACCS_PWD**) - belongs to *cloud.admin* 
-
-The diagram below shows how to find DevCS domain (GREEN ARROW) and ACCS domain (RED ARROW)
-![](common/images/gse.accounts.png)
-
 ## Lab 1
 
 Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service and Oracle Enterprise Pack For Eclipse
