@@ -52,16 +52,16 @@ Change to the **Build Parameters** tab and select the **This build is parameteri
 
 When the details area appears enter the following values below. Note you need to click **Add Parameter** for each value-pair. In case of password parameter select **Password Parameter**.
 
-- **Type**:String Parameter, **Name**: STORAGE_USER, **Default Value**: your Oracle Public Cloud account's username (use ACCS_USER)
-- **Type**:Password Parameter, **Name**: STORAGE_PASSWORD, **Default Value**: your Oracle Public Cloud account's password (use ACCS_PWD)
+- **Type**:String Parameter, **Name**: STORAGE_USER, **Default Value**: your Oracle Public Cloud account's username 
+- **Type**:Password Parameter, **Name**: STORAGE_PASSWORD, **Default Value**: your Oracle Public Cloud account's password 
 - **Type**:String Parameter, **Name**: STORAGE_CONTAINER, **Default Value**: xweek
-- **Type**:String Parameter, **Name**: IDENTITY_DOMAIN, **Default Value**: your Oracle Public Cloud identity domain (use ACCS_DOMAIN)
+- **Type**:String Parameter, **Name**: IDENTITY_DOMAIN, **Default Value**: your Oracle Public Cloud identity domain 
 
 When you have all the necessary parameters it should look similar like below, expect the default values. To give default values here is just an option, you can define the correct values when the build job will be started.
 
 ![alt text](images/10.build.parameters.values.png) 
 
-Now change to the **Source Control** tab and select **Git**. In the git's properties section select the only one available Git repository which is provided in the list. Leave the advanced settings default.
+Now change to the **Source Control** tab and select **Git**. In the git's properties section select the only one available Git repository which is provided in the list. Leave the advanced settings default. (THE NAME OF REPOSITORY WILL BE springboot-sample.git - NOT AS IN THE IMAGE)
 
 ![alt text](images/11.scm.config.png)
 
