@@ -29,32 +29,10 @@ This tutorial demonstrates how to:
 
 ----
 
-#### Create Oracle Developer Cloud Service project ####
-
-Sign in to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). First select your datacenter then click **My Services** and provide your identity domain and credentials (use DEVCS_DOMAIN, DEVCS_USER, DEVCS_PWD). After a successful login you will see your Dashboard. Find the Developer services tile and click the hamburger icon. In the dropdown menu click **Open Service Console** to open Oracle Developer Cloud Services console.
-![](images/01.dashboard.png)
-
-Click **+ New Project** button to create a new project.
-
-![alt text](images/02.new.project.png)
-
-Enter *fixitfast* as name of the project, a desired description and Click **Next**.
-
-![alt text](images/03.new.project.details.png)
-
-Click **Next** and select *Initial Repository* as template.
-
-![](images/04.select.template.png)
-
-Click **Next** and on the Properties page select *MARKDOWN* as Wiki Markup and select *Import existing repository* to copy existing repository in this new project. Enter or copy the *https://github.com/oracle/cloud-native-devops-workshop.git* repository address.
-
-![](images/05.import.repository.png)
-
-Now click **Finish** to create the project and to clone the specified repository.
 
 ### Configure build job to produce FixItFast sample application's components ###
 
-Once the project provisioning is ready let's create the build job to compile and packaging all necessary components for FixItFast Cloud Native application.
+Login to Developer Cloud Service and open project you created before. Once the project provisioning is ready let's create the build job to compile and packaging all necessary components for FixItFast Cloud Native application.
 
 Select **Build** item on the left side menu and click the **New Job** button.
 
